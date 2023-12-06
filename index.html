@@ -11,6 +11,7 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Space+Mono:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
   </head>
   <body>
@@ -27,10 +28,11 @@
             required
             autocomplete="off"
             class="instructions"
+            id="user-instruction"
           />
           <input type="submit" class="submit-button" />
         </form>
-        <div class="poem" id="poem">Love blooms like a flower,</div>
+        <div class="poem" id="poem"></div>
       </main>
       <footer>
         This AI project was coded by Thai Ha Nguyen and is
