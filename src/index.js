@@ -1,7 +1,7 @@
 function generatePoem(event) {
   event.preventDefault();
 
-  new Typewriter("#typewriter", {
+  new Typewriter("#poem", {
     strings: "Love blooms like a flower,",
     autoStart: true,
     delay: 1,
