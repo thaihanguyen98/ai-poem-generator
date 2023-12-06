@@ -133,3 +133,21 @@ footer {
     visibility: hidden;
   }
 }
+
+@media (max-width: 660px) {
+  body {
+    margin: 0 auto;
+  }
+
+  .container {
+    margin: 10px;
+  }
+
+  form {
+    padding: 0 20px;
+  }
+
+  .poem {
+    padding: 10px 30px;
+  }
+}
